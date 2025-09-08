@@ -1,8 +1,8 @@
-CI/CD Pipeline Demo
-
+**CI/CD Pipeline Demo
+**
 This project is a demo website showcasing an automated CI/CD pipeline. It highlights how DevOps practices improve release efficiency, reliability, and deployment workflows.
 
-Features
+**Features**
 
 GitHub Triggers: Automatically builds and tests code on every push.
 
@@ -12,34 +12,24 @@ AWS Deployment: Seamlessly deploys containerized applications to AWS.
 
 Automated Workflow: Reduces manual effort, increases release speed, and improves reliability.
 
-Tech Stack
+**Tech Stack**
 
-GitHub Actions
+1. GitHub Actions
+2. Docker
+3. AWS (ECS / ECR / S3 depending on setup)
+4. Node.js / HTML / CSS (frontend demo)
 
-Docker
+**How It Works**
 
-AWS (ECS / ECR / S3 depending on setup)
+1. Push code to GitHub → triggers pipeline.
+2. Pipeline builds Docker image and runs tests.
+3. If successful, image is pushed to AWS ECR.
+4. Application is deployed to AWS ECS (or other service).
 
-Node.js / HTML / CSS (frontend demo)
+**Getting Started**
 
-How It Works
-
-Push code to GitHub → triggers pipeline.
-
-Pipeline builds Docker image and runs tests.
-
-If successful, image is pushed to AWS ECR.
-
-Application is deployed to AWS ECS (or other service).
-
-Getting Started
-
-Clone this repo:
-
-git clone https://github.com/your-username/ci-cd-pipeline-demo.git
+Clone this repo: git clone https://github.com/your-username/ci-cd-pipeline-demo.git
 cd ci-cd-pipeline-demo
-
-
 Set up GitHub Actions with your AWS credentials.
 
-Push a change to the repo and watch the pipeline run!
+**Push a change to the repo and watch the pipeline run!**
