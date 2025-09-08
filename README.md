@@ -28,7 +28,7 @@ Automated Workflow: Reduces manual effort, increases release speed, and improves
 
 **Getting Started**
 
-Clone this repo: git clone https://github.com/your-username/ci-cd-pipeline-demo.git
+Clone this repo: git clone https://github.com/kgurneet/DevOps-Demo.git
 cd ci-cd-pipeline-demo
 Set up GitHub Actions with your AWS credentials.
 
