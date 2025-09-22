@@ -26,10 +26,4 @@ Automated Workflow: Reduces manual effort, increases release speed, and improves
 3. If successful, image is pushed to AWS ECR.
 4. Application is deployed to AWS ECS (or other service).
 
-**Getting Started**
 
-Clone this repo: git clone https://github.com/kgurneet/DevOps-Demo.git
-cd ci-cd-pipeline-demo
-Set up GitHub Actions with your AWS credentials.
-
-**Push a change to the repo and watch the pipeline run!**
